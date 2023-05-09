@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0;
+}
+h1{
+    color:brown;
+    font:600;
+    text-align: center;
+}
+h6{
+    color:coral;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    height:100vh;
+    width:100%;
+    background-color:white;
+}
+ul{
+    position:absolute;
+    top:5%;
+    right:5%;
+}
+ul li{
+    list-style: none;
+    display:inline-block;
+    margin:20px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+.thumbnail{
+    padding-top:7%;
+}
+.thumbnail li{
+    position:relative;
+    list-style: none;
+    margin-top: 50px;
+}
+.thumbnail img{
+    max-width: 120px;
+    display: block;
+}
+.thumbnail img:hover{
+    transform: translateX(80px);
+    transition: 0.5s;
+}
+.content{
+    cursor:pointer;
+    position:absolute;
+    max-width:50%;
+    right:10%;
+    top:20%;
+}
+.content ul li a{
+    font-size:30px;
+    font-family:fantasy;
+    color:brown;
+    text-decoration:underline;
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+}
+.content h3{
+    font-size:10px;
+    font-family:arial;
+    color:black;
+    font-weight: 100;
+}
+form{
+    color: black;
+    width:50rem;
+    height:30rem;
+    flex-direction: column;
+}
+input{
+    margin:5%;
+    width:40%%;
+    background: transparent;
+    text-align: center;
+}
+.big-image img{
+    position:absolute;
+    left:20%;
+    top:20%;
+    max-width: 100%;
+    max-height:100%;
+}
+ol li a{
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 40px;
+}
+.footerbottom{
+    text-align: center;
+    padding:100px;
+    background-color: black;
+}
+.footerbottom p{
+    color: white;
+}
